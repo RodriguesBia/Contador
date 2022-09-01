@@ -1,0 +1,27 @@
+body{
+    font: normal 15pt Arial;
+    background-color: rgb(0, 162, 255);
+}
+
+section{
+    background: white;
+    border-radius: 20px;
+    margin:auto;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.466);
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
+
+header{
+    text-align: center;
+
+}
+
+#resposta{
+    margin-top: 15px;
+}

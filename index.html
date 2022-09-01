@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos contar?</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Titulo</h1>
+
+    </header>
+    <section>
+        <div>
+            <p>Começar a contar: <input type="number" name="escolha" id="escolhainicio"></p>
+        </div>
+
+        <div>
+            <p>Contar até: <input type="number" name="escolha" id="escolhafinal"></p>
+        </div>
+
+        <div>
+            <p>Pular: <input type="number" name="escolha" id="escolhapular"></p>
+        </div>
+        <div>
+            <input type="button" value="Verificar" onclick="verificar()">
+
+            <input type="button" value="Limpar" onclick="limpar()">
+        </div>
+
+        <div id="resposta">Preparando contagem...</div>
+
+    </section>
+
+    <footer>
+        <p>&copy; Bianca Rodrigues </p>
+    </footer>
+    
+</body>
+</html>
